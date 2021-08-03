@@ -1,0 +1,102 @@
+body{
+    background-color:#ebe4e8;
+    background-color: white;
+    background: url('/img/bg_4.jpg');
+    
+}
+
+/* .menu-links::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url('/img/menu5.jpg') no-repeat center center/cover;
+    height: 195px;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+
+} */
+
+/* menu links */
+.menu-links h4{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 40px 0px;
+    font-family: 'Bree Serif', serif; 
+}
+
+.menu-links ul{
+    border: 3px solid black;
+    display: flex;  
+    border-radius: 10px;
+    width: 40%;
+    justify-content: center;
+    margin: 0px auto;
+    background-color: rgb(202, 198, 198);
+}
+.menu-links ul li{
+    font-size: 1.8rem;
+    list-style: none;
+    padding: 10px;
+    margin: 20px; 
+    font-family: 'Bree Serif', serif;  
+}   
+.menu-links ul li a{
+    color: rgb(49, 38, 38);
+    text-decoration: none;
+}
+
+/* items */
+h3{
+ font-size: 2.5rem;
+ margin:20px 20px;
+ font-family: 'Bree Serif', serif; 
+ color: white; 
+}
+
+#pizzas-items,#salad-items,#noodle-items{
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* margin: 0px auto; */
+    /* width: 90%; */
+    margin: 0px 20px;
+    
+}
+h3{
+    display: block;
+    text-align: center;
+}
+
+.item-page{
+    display: flex;
+    border: 3px solid green;
+    padding: 20px 30px;
+    margin: 5px;
+    border-radius: 24px;
+}
+.item-page img{
+    display: block;
+    height: 220px;
+    width: 225px;
+    margin: auto;
+}
+.item-page h4{
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+    /* color: white; */
+}
+.item-page h5{
+    font-size: 1.2rem;
+    color: green;
+    font-family: 'Bree Serif', serif;
+    margin-top: 20px;
+    
+}
+.item-page p{
+    font-size: 1rem;
+    font-family: 'Bree Serif', serif;
+    /* color: white; */
+}
+
